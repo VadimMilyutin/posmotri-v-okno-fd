@@ -104,6 +104,7 @@ a{
 
 .search-form__fieldset{
   border: none;
+  appearance: none;
 }
 
 .search-form__fieldset-title{
@@ -218,6 +219,10 @@ a{
   gap: 30px;
 }
 
+.content__list-item{
+  display: block;
+}
+
 .more-button{
   width: 99%;
   background-color: transparent;
@@ -273,7 +278,7 @@ a{
   outline: none;
 }
 
-/* стили при фокусе и ховере */
+/* стили при фокусе, ховере и активе */
 
 .search-form__label:hover{
   text-decoration: underline;
@@ -281,7 +286,7 @@ a{
 
 .search-form__label:has(:focus-visible){
   box-sizing: border-box;
-  border: 1px solid white;
+  outline: 1px solid white;
   outline-offset: 1px;
 }
 
@@ -321,6 +326,7 @@ a{
 }
 
 .content__list-item:has(:focus-visible){
-  border: 1px solid white;
+  outline: 1px solid white;
+  outline-offset: -1px;
 }
 
