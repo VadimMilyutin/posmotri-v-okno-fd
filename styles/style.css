@@ -225,8 +225,10 @@ a{
 
 .more-button{
   width: 99%;
+  height: 34px;
   background-color: transparent;
   margin: 30px 0 2px 2px;
+  text-align: center;
 }
 
 .content__video-card{
