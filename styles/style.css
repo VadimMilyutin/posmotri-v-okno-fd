@@ -270,6 +270,7 @@ a {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+  padding-bottom: 2px;
 }
 
 .content__card-link {
@@ -300,7 +301,10 @@ a {
 }
 
 .content__card-link:hover {
-  text-decoration: underline 1px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
   text-underline-offset: 2px;
 }
 
